@@ -22,7 +22,7 @@ void function1()
 
 void main()
 {
-
+	function1();
 }
 
 
