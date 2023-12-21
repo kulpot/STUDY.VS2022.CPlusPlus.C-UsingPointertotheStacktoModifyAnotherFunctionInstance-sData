@@ -6,7 +6,10 @@ using std::endl;
 // ----------------------------- C++ - Using A Pointer to the Stack to Modify Another Function Instance's Data -------------------------------------
 // ref link:https://www.youtube.com/watch?v=zPrU9AHerlg&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=5
 
+void main()
+{
 
+}
 
 
 
