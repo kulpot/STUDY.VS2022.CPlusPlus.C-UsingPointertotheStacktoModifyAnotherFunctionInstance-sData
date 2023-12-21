@@ -6,6 +6,17 @@ using std::endl;
 // ----------------------------- C++ - Using A Pointer to the Stack to Modify Another Function Instance's Data -------------------------------------
 // ref link:https://www.youtube.com/watch?v=zPrU9AHerlg&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=5
 
+void function2()
+{
+	int f2Int;
+}
+
+void function1()
+{
+	int f1Int = 92;
+	function2();
+}
+
 void main()
 {
 
