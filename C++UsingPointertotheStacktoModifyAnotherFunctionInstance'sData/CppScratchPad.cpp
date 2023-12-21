@@ -14,14 +14,19 @@ void function2()
 		//cout << *(p + i) << endl;
 	{
 		if (*(p + i) == 92)
+		{
 			*(p + i) = 667;
+			break;
+		}
 	}
 }
 
 void function1()
 {
 	int f1Int = 92;
+	cout << f1Int << endl;
 	function2();
+	cout << f1Int << endl;
 }
 
 void main()
