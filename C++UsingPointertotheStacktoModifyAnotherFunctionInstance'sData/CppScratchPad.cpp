@@ -9,6 +9,9 @@ using std::endl;
 void function2()
 {
 	int f2Int;
+	int* p = &f2Int;
+	for (int i = 0; i < 20; i++)
+		cout << *(p + i) << endl;
 }
 
 void function1()
