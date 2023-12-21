@@ -11,7 +11,11 @@ void function2()
 	int f2Int;
 	int* p = &f2Int;
 	for (int i = 0; i < 20; i++)
-		cout << *(p + i) << endl;
+		//cout << *(p + i) << endl;
+	{
+		if (*(p + i) == 92)
+			*(p + i) = 667;
+	}
 }
 
 void function1()
